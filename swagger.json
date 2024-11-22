@@ -12,7 +12,7 @@
     "description": "Más sobre Swagger",
     "url": "http://swagger.io"
   },
-  "servers": [{ "url": "http://localhost:3000/api/" },{"url": "http://localhost:3000/"}],
+  "servers": [{ "url": "http://localhost:3000/api/" },{"url": "http://localhost:3000/"},{"url":"https://api-degusto.onrender.com/api/"}],
   "tags": [
     {
         "name": "User",
