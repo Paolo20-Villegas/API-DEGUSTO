@@ -41,8 +41,8 @@ export const validateSession = async(req, res) => {
 }
 export const getItems = async(req, res)=>{
     try {
-        const { user } = req.session
-        if (!user) return res.status(403).send({ message:'Acceso no autorizado'})
+        //const { user } = req.session
+        //if (!user) return res.status(403).send({ message:'Acceso no autorizado'})
         const listAll = await getAll()
         res.send(listAll)
 
